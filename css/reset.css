@@ -20,7 +20,9 @@ menu, nav, output, section {
 div, h1, h2, p,article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+ 	box-sizing: border-box;
 }
 ul, menu, dir {
     display: block;

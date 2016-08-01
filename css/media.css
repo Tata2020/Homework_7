@@ -204,6 +204,14 @@
 		width: 427px;
 		padding: 23px 40px 35px 29px;
 	}
+	.referens__block:after {
+		content: ''; 
+	    position: absolute;
+	    left: 393px;
+	    top: 371px;
+	    border-bottom: 19px solid transparent;
+	    border-right: 19px solid #fff;
+	}
 	.referens__content {
 		margin-left: 9px;
 	}
@@ -552,7 +560,7 @@
 		margin-top: 0px;
 	}
 	.slider__img {
-		margin-right: -33px;
+		margin-right: -45px;
 		margin-top: -30px;
 	}
 	.slider__img--big {
@@ -967,7 +975,7 @@
 		padding-bottom: 27px;
 	}
 	.slider .slider__img {
-		margin-right: -33px;
+		margin-right: -45px;
 		margin-top: -30px;
 		width: 50px;
 	}
